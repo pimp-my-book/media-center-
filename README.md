@@ -1,6 +1,12 @@
-# Default starter for Gridsome
+# Newsroom
 
-This is the project you get when you run `gridsome create new-project`.
+This is Pimp My Book's newsroom where our blog content, updates and annocuments will be hosted. It is also linked to Netlify CMS to allow editors to upload their content.
+
+This project is built with:
+
+* [Yarn](https://yarnpkg.com)
+* [Gridsome](https://gridsome.org)
+* [Tailwind](https://tailwindcss.com/)
 
 ### 1. Install Gridsome CLI tool if you don't have
 
