@@ -26,3 +26,9 @@ $ git clone https://github.com/pimp-my-book/newsroom.git
 ```
 $ cd newsroom
 ```
+
+### 4. Then start the server and go to `localhost:8080`
+
+```
+$ yarn develop
+```
