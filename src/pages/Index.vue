@@ -1,7 +1,7 @@
 <template>
   <Layout>
     
-    <h1>Newsroom</h1>
+    <h1 class="text-green-400">Newsroom</h1>
 
   </Layout>
 </template>
