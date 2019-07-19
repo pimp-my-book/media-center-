@@ -8,6 +8,9 @@ module.exports = {
   siteName: 'Gridsome',
   plugins: [{
     use: 'gridsome-plugin-tailwindcss',
+    options: {
+      tailwindConfig: './tailwind.js'
+    }
     
   }]
 }
