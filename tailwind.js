@@ -1,6 +1,6 @@
 module.exports ={
     theme:{
-        extend:{
+       
             colors: {
                 pinkDarkest: '#ED0677',
                 pinkDark: '#E06C9F',
@@ -220,6 +220,6 @@ module.exports ={
                 'lg-card': '15px -10px 4px rgba(0,0,0,0.25)',
                 'none': 'none',
               },
-        }
+        
     }
 }
