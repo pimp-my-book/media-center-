@@ -2,6 +2,7 @@
   <div class="layout">
     <NavBar/>
     <slot/>
+    <Footer/>
   </div>
 </template>
 
@@ -15,11 +16,13 @@ query {
 
 <script>
 import NavBar from '../components/navigation/NavBar'
+import Footer from '../components/navigation/Footer'
 
 export default {
   name: 'Default',
   components: {
-     NavBar
+     NavBar,
+     Footer
   }
 }
 </script>
