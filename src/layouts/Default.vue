@@ -1,6 +1,6 @@
 <template>
   <div class="layout">
-    
+    <NavBar/>
     <slot/>
   </div>
 </template>
@@ -14,7 +14,7 @@ query {
 </static-query>
 
 <script>
-import NavBar from './components/navigation/NavBar'
+import NavBar from '../components/navigation/NavBar'
 
 export default {
   name: 'Default',
