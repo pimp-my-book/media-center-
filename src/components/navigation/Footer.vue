@@ -1,5 +1,5 @@
 <template>
-    <footer class="border-bottom">
+    <footer class="border-bottom  h-screen">
 
     </footer>
 </template>
