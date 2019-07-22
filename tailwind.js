@@ -47,11 +47,11 @@ module.exports ={
                 'lapie': [{'min': '1024px','max':'1366px'}],
                 'xl': [{'min': '1500px'}],
               },
-              fonts: {
+              fontFamily: {
                 'display':['Rubik Mono One'] ,
                 'body': ['Kanit'],
               },
-              textSizes: {
+              fontSize: {
                 'xs': '.75rem',     // 12px
                 'sm': '.875rem',    // 14px
                 'base': '1rem',     // 16px
@@ -63,7 +63,7 @@ module.exports ={
                 '5xl': '3rem', 
                 '7xl': '5rem'     // 48px
               },
-              fontWeights: {
+              fontWeight: {
                 'hairline': 100,
                 'thin': 200,
                 'light': 300,

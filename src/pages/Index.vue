@@ -1,15 +1,15 @@
 <template>
   <Layout>
     
-    <h1 class="text-green-400">Newsroom</h1>
-    <button class="py-10 px-10 text-pinkDarkest blue-dark hover:blue-dark"> hi</button>
+    <p class="text-green-400 font-body text-4xl">Newsroom</p>
+    <button class="py-10 px-10  text-pinkDarkest blue-dark hover:blue-dark"> hi</button>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'PMB Newsroom'
   }
 }
 </script>
