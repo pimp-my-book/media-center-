@@ -95,7 +95,16 @@ module.exports ={
                 '8': '8px',
               },
               borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
-              
+              borderRadius: {
+                'none': '0',
+                'px': '5px',
+                'sm': '.125rem',
+                default: '.25rem',
+                'lg': '25px',
+                'full': '9999px',
+                'header-border': '0px 0px 220px 220px',
+                'header-border-sm': '0px 0px 120px 120px'
+              },
         }
     }
 }
