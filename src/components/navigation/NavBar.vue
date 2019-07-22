@@ -1,9 +1,9 @@
 <template>
      <nav class="border-top flex items-center justify-between flex-wrap bg-green-darker p-6">
         <div class="flex items-center flex-no-shrink text">
-            <h1 class="font-display text-white">
+            <h1 class="font-display ">
             <a 
-            class="no-underline text-white"
+            class="no-underline text-pinkDarkest font-display"
             href="/">
             Pimp My Book
             </a>
@@ -11,7 +11,7 @@
         </div>
         <div class="block lg:hidden">
             <span @click="toggle" class="flex items-center px-3 py-2">
-                <
+                
                 </span>
         </div>
         <div :class="open ? 'block sm-600:block md:block sm-land:block':'hidden'" class="w-full flex-grow sm:hidden lg:flex lg:items-center lg:w-auto">
