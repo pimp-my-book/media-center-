@@ -74,6 +74,12 @@ module.exports ={
                 'extrabold': 800,
                 'black': 900,
               },
+              leading: {
+                'none': 1,
+                'tight': 1.25,
+                'normal': 1.5,
+                'loose': 2,
+              },
         }
     }
 }
