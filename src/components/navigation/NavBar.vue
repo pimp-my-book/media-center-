@@ -17,11 +17,11 @@
         <div :class="open ? 'block sm-600:block md:block sm-land:block':'hidden'" class="w-full flex-grow sm:hidden lg:flex lg:items-center lg:w-auto">
             <div class=" text-md sm:flex-grow ">
                 
-                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-white hover:text-bg-green-light mr-4">
+                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-pinkDarkest hover:text-bg-green-light mr-4">
                    
-                       <router-link class="text-white no-underline" to="/how-it-works">
-                       <p class="font-body hover:text-green">
-                        How It Works
+                       <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
+                       <p class="font-body text-pinkDarkes hover:text-green">
+                        Company
                         </p>
                         </router-link>
                  </a>
