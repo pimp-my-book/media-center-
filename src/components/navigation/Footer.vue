@@ -1,10 +1,19 @@
 <template>
     <footer class="border-bottom  w-full bottom-0 left-0 absolute ">
       <div class="flex flex-row">
-          <div>Our Products</div>
-          <div>Make Money With Us</div>
-          <div>Logos</div>
-          <div>Terms</div>
+          <div class="flex flex-col">
+          <p>Our Products</p>
+           <p>Our Products</p>
+            <p>Our Products</p>
+          </div>
+          <div class="flex flex-col">
+          <p>Make Money With Us</p>
+           <p>Our Products</p>
+            <p>Our Products</p>
+          </div>
+          
+          <div class="flex flex-col">Logos</div>
+          <div class="flex flex-col">Terms</div>
       </div>
     </footer>
 </template>
