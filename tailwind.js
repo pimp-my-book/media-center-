@@ -47,6 +47,9 @@ module.exports ={
                 'lapie': [{'min': '1024px','max':'1366px'}],
                 'xl': [{'min': '1500px'}],
               },
+              fonts: {
+                'display':['Rubik Mono One'] ,
+                'body': ['Kanit'],
         }
     }
 }
