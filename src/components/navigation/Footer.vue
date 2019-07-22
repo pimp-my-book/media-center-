@@ -1,6 +1,6 @@
 <template>
     <footer class="border-bottom  w-full bottom-0 left-0 absolute ">
-      <div>
+      <div class="flex flex-row">
           <div>Our Products</div>
           <div>Make Money With Us</div>
           <div>Logos</div>
