@@ -33,7 +33,20 @@ module.exports ={
                 orange: '#F4845F',
                 orangeLight: '#F79D65',
                 orangeLightest: '#F7B267',
-            }
+            },
+            screens: {
+                's': '320px',
+                's-max': [{'max':'320px'}],
+                'sl': '375px',
+                'sm': '575px',
+                'sm-600': '600px',
+                'sm-land':[{'min':'667px'}],
+                'md': '768px',
+                'lg': '992px',
+                'x': '1024px',
+                'lapie': [{'min': '1024px','max':'1366px'}],
+                'xl': [{'min': '1500px'}],
+              },
         }
     }
 }
