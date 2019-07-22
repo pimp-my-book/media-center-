@@ -298,4 +298,15 @@ module.exports ={
         wordBreak: ['responsive'],
         zIndex: ['responsive'],
       },
+      plugins:[
+        
+        function({addComponents}){
+          const border = {
+            ".border-top": {
+              borderTop: "#ED0677 8px solid"
+            }
+          };
+          addComponents(border);
+        }
+      ],
 }
