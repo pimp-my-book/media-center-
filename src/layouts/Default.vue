@@ -13,6 +13,18 @@ query {
 }
 </static-query>
 
+<script>
+import NavBar from './components/navigation/NavBar'
+
+export default {
+  name: 'Default',
+  components: {
+     NavBar
+  }
+}
+</script>
+
+
 <style>
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
