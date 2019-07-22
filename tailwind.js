@@ -220,6 +220,15 @@ module.exports ={
                 'lg-card': '15px -10px 4px rgba(0,0,0,0.25)',
                 'none': 'none',
               },
+              cursor: {
+                auto: 'auto',
+                default: 'default',
+                pointer: 'pointer',
+                wait: 'wait',
+                text: 'text',
+                move: 'move',
+                'not-allowed': 'not-allowed',
+              },
         
     }
 }
