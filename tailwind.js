@@ -80,8 +80,8 @@ module.exports ={
                 'normal': 1.5,
                 'loose': 2,
               },
-              textColors: colors,
-              backgroundColors: colors,
+              textColors: theme => theme('colors'),
+              backgroundColors: theme => theme('colors'),
               backgroundSize: {
                 'auto': 'auto',
                 'cover': 'cover',
@@ -94,7 +94,7 @@ module.exports ={
                 '4': '4px',
                 '8': '8px',
               },
-              borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
+              borderColors: global.Object.assign({ default: theme => theme(colors['grey-light']) }, theme => theme('colors')),
               borderRadius: {
                 'none': '0',
                 'px': '5px',
