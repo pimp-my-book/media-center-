@@ -80,6 +80,13 @@ module.exports ={
                 'normal': 1.5,
                 'loose': 2,
               },
+              textColors: colors,
+              backgroundColors: colors,
+              backgroundSize: {
+                'auto': 'auto',
+                'cover': 'cover',
+                'contain': 'contain',
+              },
         }
     }
 }
