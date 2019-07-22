@@ -94,7 +94,7 @@ module.exports ={
                 '4': '4px',
                 '8': '8px',
               },
-
+              borderColors: global.Object.assign({ default: colors['grey-light'] }, colors),
               
         }
     }
