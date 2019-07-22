@@ -306,6 +306,13 @@ module.exports ={
               borderTop: "#ED0677 8px solid"
             }
           };
+          const borderBottom = {
+              ".border-bottom":{
+                  borderBot: '#ED0677 8px solid'
+              }
+          };
+
+          addComponents(borderBottom);
           addComponents(border);
         }
       ],
