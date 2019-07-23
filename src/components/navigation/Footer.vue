@@ -20,6 +20,7 @@
               </div>
           </div>
           <div class="flex flex-col">Terms</div>
+          <div class="flex flex-col">&copy;{{new Date().getFullYear()}}, <SaFlag/></div>
       </div>
     </footer>
 </template>
