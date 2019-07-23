@@ -20,7 +20,9 @@
               </div>
           </div>
           <div class="flex flex-col">Terms</div>
-          <div class="flex flex-col">&copy;{{new Date().getFullYear()}}, <SaFlag/></div>
+          <div class="flex flex-col">&copy; {{new Date().getFullYear()}}, 
+              <img src="https://s3.amazonaws.com/goa-assets/Icons/flag-for-south-africa_1f1ff-1f1e6.svg"/>
+              </div>
       </div>
     </footer>
 </template>
