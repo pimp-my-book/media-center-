@@ -34,7 +34,9 @@ import PmbLogo from '~/assets/logos/pmb_logo.svg'
 import SaFlag from '~/assets/logos/sa_flag.svg'
 import TwitterLogo from '~/assets/logos/twitter_logo.svg'
 import FbLogo from '~/assets/logos/facebook_logo.svg'
-
+import HeadingFour from "../typography/HeadingFour"
+import Body from "../typography/Body"
+import Caption from "../typography/Caption"
 
 
 export default {
@@ -43,7 +45,10 @@ export default {
         PmbLogo,
         SaFlag,
         TwitterLogo,
-        FbLogo
+        FbLogo,
+        Caption,
+        Body,
+        HeadingFour
     }
 }
 </script>
