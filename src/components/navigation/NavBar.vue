@@ -17,7 +17,12 @@
         <div :class="open ? 'block sm-600:block md:block sm-land:block':'hidden'" class="w-full flex-grow sm:hidden lg:flex lg:items-center lg:w-auto">
             <div class=" text-md sm:flex-grow ">
                 
-                 <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-pinkDarkest hover:text-blueLightest mr-4">
+                 
+              
+            </div>
+            <div class="nav__drawer--right">
+                <p class="text-white font-body mr-4 hover:text-green">
+                  <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-pinkDarkest hover:text-blueLightest mr-4">
                    
                        <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
                        <p class="font-body text-pinkDarkes ">
@@ -25,11 +30,6 @@
                         </p>
                         </router-link>
                  </a>
-              
-            </div>
-            <div class="nav__drawer--right">
-                <p class="text-white font-body mr-4 hover:text-green">
-                  
                 </p>
             </div>
             <div class="nav__drawer--right ">
