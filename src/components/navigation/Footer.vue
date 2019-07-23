@@ -1,26 +1,26 @@
 <template>
     <footer class="border-bottom  w-full bottom-0 left-0 absolute ">
-      <div class="flex x:flex-row p-5">
-          <div class="flex x:flex-col">
+      <div class="flex x:flex-row s:flex-col p-5">
+          <div class="flex flex-col ">
           <p>Our Products</p>
            <p>Our Products</p>
             <p>Our Products</p>
           </div>
-          <div class="flex x:flex-col ml-32">
+          <div class="flex flex-col x:ml-32">
           <p>Make Money With Us</p>
            <p>Our Products</p>
             <p>Our Products</p>
           </div>
 
-          <div class="flex x:flex-col  ml-32">
+          <div class="flex flex-col  x:ml-32">
               <PmbLogo/>
               <div class="flex flex-row">
                   <TwitterLogo/>
                   <FbLogo/>
               </div>
           </div>
-          <div class="flex x:flex-col  ml-32">Terms</div>
-          <div class="flex flex-row  ml-10">
+          <div class="flex flex-col  x:ml-32">Terms</div>
+          <div class="flex flex-row  x:ml-10">
               <div>&copy; {{new Date().getFullYear()}}, 
               <img src="https://s3.amazonaws.com/goa-assets/Icons/flag-for-south-africa_1f1ff-1f1e6.svg"/></div>
               </div>
