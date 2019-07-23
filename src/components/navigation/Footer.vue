@@ -14,7 +14,10 @@
 
           <div class="flex flex-col">
               <PmbLogo/>
-              
+              <div class="flex flex-row">
+                  <TwitterLogo/>
+                  <FbLogo/>
+              </div>
           </div>
           <div class="flex flex-col">Terms</div>
       </div>
