@@ -1,14 +1,23 @@
 <template>
     <div>
         <!-- article img -->
-        <img/>
+        <img
+        :src="img"
+        />
         <div>
              <!-- article tag -->
- 
+         <Body
+         :text="cardTag"
+         />
             <!-- article title -->
-
+        <HeadingThree
+        :text="cardTitle"
+        />
 
             <!-- article date -->
+        <Caption
+        :text="cardDate"
+        />
         </div>
     </div>
 </template>
