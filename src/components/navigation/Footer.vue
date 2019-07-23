@@ -22,10 +22,19 @@
 </template>
 <script>
 import PmbLogo from '~/assets/logos/pmb_logo.svg'
+import SaFlag from '~/assets/logos/sa_flag.svg'
+import TwitterLogo from '~/assets/logos/twitter_logo.svg'
+import FbLogo from '~/assets/logos/facebook_logo.svg'
+
+
+
 export default {
     name: 'Footer',
     components:{
-        PmbLogo
+        PmbLogo,
+        SaFlag,
+        TwitterLogo,
+        FbLogo
     }
 }
 </script>
