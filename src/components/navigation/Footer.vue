@@ -15,8 +15,9 @@
 
           <div class="flex flex-col  x:ml-32 md:ml-16 s:mt-5 md:mt-0">
               <PmbLogo/>
-              <div class="flex flex-row">
-                  <TwitterLogo/>
+              <div class="flex flex-row ml-10 mt-3 ">
+                  <TwitterLogo 
+                  class="mr-3"/>
                   <FbLogo/>
               </div>
           </div>
