@@ -18,9 +18,12 @@
           <HeadingFour
               text="Make Money With Us"
               />
-          <p></p>
-           <p>Our Products</p>
-            <p>Our Products</p>
+           
+          <Body
+          class="text-black "
+          text="Sell to Pimp My Book"
+          />
+           
           </div>
 
           <div class="flex flex-col  x:ml-32 md:ml-16 s:mt-5 md:mt-0">
@@ -31,9 +34,21 @@
                   <FbLogo/>
               </div>
           </div>
-          <div class="flex flex-col  x:ml-32 md:ml-16 s:mt-5 md:mt-0">Terms</div>
+          <div class="flex flex-col  x:ml-32 md:ml-16 s:mt-5 md:mt-0">
+               <Body
+          class="text-black "
+          text="Privacy Policy"
+          />
+          <Body
+          class="text-black "
+          text="Terms and Conditions"
+          />
+          </div>
           <div class="flex flex-row  x:ml-10 md:ml-16 s:mt-5 md:mt-0" >
-              <div>&copy; {{new Date().getFullYear()}}, 
+              <div>&copy; {{new Date().getFullYear()}} 
+                  <Caption
+                  text="Pimp My Book"
+                  />
               <img src="https://s3.amazonaws.com/goa-assets/Icons/flag-for-south-africa_1f1ff-1f1e6.svg"/></div>
               </div>
       </div>
