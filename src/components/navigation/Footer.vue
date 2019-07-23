@@ -1,6 +1,7 @@
 <template>
     <footer class="border-bottom  w-full bottom-0 left-0 absolute ">
-      <div class="flex x:flex-row s:flex-col p-5">
+      <div class="flex x:flex-row s:flex-col md:flex-row p-5">
+         
           <div class="flex flex-col ">
           <p>Our Products</p>
            <p>Our Products</p>
