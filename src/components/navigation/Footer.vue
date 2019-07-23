@@ -11,14 +11,21 @@
            <p>Our Products</p>
             <p>Our Products</p>
           </div>
-          
-          <div class="flex flex-col">Logos</div>
+
+          <div class="flex flex-col">
+              <PmbLogo/>
+              
+          </div>
           <div class="flex flex-col">Terms</div>
       </div>
     </footer>
 </template>
 <script>
+import PmbLogo from '~/assets/logos/pmb_logo.svg'
 export default {
-    name: 'Footer'
+    name: 'Footer',
+    components:{
+        PmbLogo
+    }
 }
 </script>
