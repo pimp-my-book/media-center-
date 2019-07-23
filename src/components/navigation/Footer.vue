@@ -1,5 +1,5 @@
 <template>
-    <footer class="border-bottom  w-full bottom-0 left-0 absolute ">
+    <footer class="border-bottom fixed-bottom w-full bottom-0 left-0 absolute ">
       <div class="flex x:flex-row s:flex-col md:flex-row p-5">
          
           <div class="flex flex-col ">
