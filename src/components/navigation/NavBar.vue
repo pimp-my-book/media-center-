@@ -11,8 +11,8 @@
         </div>
         <div class="block lg:hidden">
             <span @click="toggle" class="flex items-center px-3 py-2">
-                
-                </span>
+                    <img src="https://pmb-static-assests.s3.amazonaws.com/menu.svg"/>
+                 </span>
         </div>
         <div :class="open ? 'block sm-600:block md:block sm-land:block':'hidden'" class="w-full flex-grow sm:hidden lg:flex lg:items-center lg:w-auto">
             <div class=" text-md sm:flex-grow ">
@@ -44,7 +44,8 @@ import PmbLogo from '~/assets/logos/pmb_logo.svg'
 export default {
     name:'NavBar',
     components:{
-        PmbLogo
+        PmbLogo,
+        
     },
     data: () =>{
         return {
