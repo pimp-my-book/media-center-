@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="shadow-lg h-500 w-500">
         <!-- article img -->
         <img
         :src="img"
