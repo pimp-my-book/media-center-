@@ -45,6 +45,16 @@ export default {
     name:'NavBar',
     components:{
         PmbLogo
+    },
+    data: () =>{
+        return {
+            open: false
+        }
+    },
+    methods: {
+        toggle(){
+            this.open = !this.open
+        }
     }
 }
 </script>
