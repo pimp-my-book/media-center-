@@ -13,7 +13,16 @@
     </div>
 </template>
 <script>
+import HeadingThree from '../typography/HeadingThree'
+import Body from '../typography/Body'
+import Caption from '../typography/Caption'
+
 export default {
-    name:'ArticleCard'
+    name:'ArticleCard',
+    components:{
+        HeadingThree,
+        Body,
+        Caption
+    }
 }
 </script>
