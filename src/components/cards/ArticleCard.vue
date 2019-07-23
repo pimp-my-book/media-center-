@@ -23,6 +23,12 @@ export default {
         HeadingThree,
         Body,
         Caption
+    },
+    props:{
+        img: String,
+        cardTitle: String,
+        cardTag: String,
+        cardDate: String
     }
 }
 </script>
