@@ -5,7 +5,7 @@
             <a 
             class="no-underline text-pinkDarkest font-display"
             href="/">
-            Pimp My Book
+           <PmbLogo/>
             </a>
             </h1>
         </div>
@@ -39,7 +39,12 @@
     </nav>
 </template>
 <script>
+import PmbLogo from '~/assets/logos/pmb_logo.svg'
+
 export default {
-    name:'NavBar'
+    name:'NavBar',
+    components:{
+        PmbLogo
+    }
 }
 </script>
