@@ -3,12 +3,22 @@
       <div class="flex x:flex-row s:flex-col md:flex-row p-5">
          
           <div class="flex flex-col ">
-          <p>Our Products</p>
-           <p>Our Products</p>
-            <p>Our Products</p>
+              <HeadingFour
+              text="Our Products"
+              />
+          <Body
+          class="text-black "
+          text="GOA"
+          />
+         
+           
           </div>
+
           <div class="flex flex-col x:ml-32 md:ml-16 s:mt-5 md:mt-0">
-          <p>Make Money With Us</p>
+          <HeadingFour
+              text="Make Money With Us"
+              />
+          <p></p>
            <p>Our Products</p>
             <p>Our Products</p>
           </div>
