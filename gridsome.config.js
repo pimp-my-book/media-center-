@@ -5,7 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'PMB Newsroom',
+  siteDescription: `Pimp My Book's blog where you can find all our updates, announcements and blog posts.`
   plugins: [{
     use: 'gridsome-plugin-tailwindcss',
     options: {
