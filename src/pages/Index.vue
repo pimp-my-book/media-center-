@@ -2,7 +2,7 @@
   <Layout>
    
    <div
-   class=""
+   class="grid ml-5"
    >
    <div>
     <HomeCard
@@ -65,5 +65,11 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+
+.grid{
+  display:grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 </style>
