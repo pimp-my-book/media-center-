@@ -25,8 +25,31 @@ text="All Articles"
 </template>
 
 <script>
+import ArticleCard from "../components/cards/ArticleCard"
+import HeadingFour from "../components/typography/HeadingFour"
 export default {
-    name: "AllPosts"
+    name: "AllPosts",
+    components:{
+        ArticleCard,
+        HeadingFour
+    }
 }
 </script>
 
+<static-query>
+
+query AllPosts {
+    allContent: allContent{
+        edges{
+            node{
+              id
+                title
+                tag
+                coverImg
+                date
+            }
+        }
+    }
+}
+
+</static-query>
