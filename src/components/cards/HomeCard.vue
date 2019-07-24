@@ -1,7 +1,7 @@
 <template>
-    <div class="card w-500 h-300">
+    <div class="card w-500 h-300 s:w-300 p-2">
       <HeadingOne
-      class="text-white"
+      class="text-white s:text-4xl"
       text="Welcome to Newsroom"
       />
       <HeadingFour
