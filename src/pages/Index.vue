@@ -49,7 +49,7 @@ text="All Articles"
 <!-- start of All articles Grid -->
 
 <div class="All_Grid">
- <div v-for="allEdges in $page.content.edges" :key="allEdges.node.id">
+ <div v-for="allEdges in $page.allContent.edges" :key="allEdges.node.id">
 <!-- lastest articles -->
  <ArticleCard
     :img="allEdges.node.coverImg"
@@ -114,4 +114,25 @@ query Posts {
         }
     }
 }
+
+
+query AllPosts {
+    allContent: allContent{
+        edges{
+            node{
+              id
+                title
+                tag
+                coverImg
+                date
+            }
+        }
+    }
+}
+
+
+</page-query>
+
+<page-query>
+
 </page-query>
