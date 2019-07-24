@@ -1,6 +1,7 @@
 <template>
-    <div class="card w-300 h-300">
+    <div class="card w-500 h-300">
       <HeadingOne
+      class="text-black"
       text="Welcome to Newsroom"
       />
       <HeadingFour
@@ -22,3 +23,8 @@ export default {
     }
 }
 </script>
+<style>
+.card{
+     background: linear-gradient(179.9deg, #A0FFAB 23.23%, #94B5E3 99.68%);
+}
+</style>
