@@ -6,14 +6,25 @@
 
 module.exports = {
   siteName: 'PMB Newsroom',
-  siteDescription: `Pimp My Book's blog where you can find all our updates, announcements and blog posts.`
-  plugins: [{
-    use: 'gridsome-plugin-tailwindcss',
-    options: {
-      tailwindConfig: './tailwind.js'
+  siteDescription: 'Pimp My Book`s blog where you can find all our updates, announcements and blog posts.',
+  plugins: [
+    {
+      use: 'gridsome-plugin-tailwindcss',
+      options: {
+        tailwindConfig: './tailwind.js'
+      }
+      
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'posts/**/*.md',
+        route: '/content/:slug/',
+        typeName: 'Content'
+      }
     }
-    
-  }],
+  
+],
    chainWebpack: config => {
      const svgRule = config.module.rule('svg')
      svgRule.uses.clear()
