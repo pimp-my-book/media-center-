@@ -99,7 +99,7 @@ module.exports ={
                 'none': '0',
                 'px': '5px',
                 'sm': '.125rem',
-                default: '.25rem',
+                "default": '.25rem',
                 'lg': '25px',
                 'full': '9999px',
                 'header-border': '0px 0px 220px 220px',
@@ -317,5 +317,5 @@ module.exports ={
           addComponents(borderBottom);
           addComponents(border);
         }
-      ],
+	],
 }
