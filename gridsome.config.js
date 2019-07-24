@@ -35,7 +35,7 @@ module.exports = {
 
 transformers: {
   remark:{
-    externalLinksTarget: '_blank',
+    externalLinksTarget: "_blank",
     externalLinksRel: ['nofollow', 'noopener', 'noreferrer']
   }
 }
