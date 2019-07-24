@@ -24,6 +24,7 @@
 <router-link
  class="no-underline text-black"
   :to="edge.node.path"
+ 
 >
  <ArticleCard
     :img="edge.node.coverImg"
