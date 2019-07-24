@@ -1,5 +1,5 @@
 <template>
-    <div class="card x:w-500 h-300 s:w-300 p-2">
+    <div class="card x:w-500 h-300 x:h-400 s:w-300 p-2 x:p-10">
       <HeadingOne
       class="text-white s:text-4xl"
       text="Welcome to Newsroom"
