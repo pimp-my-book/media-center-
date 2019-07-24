@@ -1,5 +1,5 @@
 ---
-title: Have you ever said thank you to the person/organisation that paid for your varsity fees?
+title: Have you ever said thank you to the people that paid your varsity fees?
 tag: Blog
 coverImg: https://images.unsplash.com/photo-1547116211-c8a9b1458c99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=670&q=80
 date: 2019-24-7

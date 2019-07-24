@@ -2,7 +2,7 @@
     
    <!-- All articles Grid -->
 
-   <div >
+   <div class="mt-20">
 <HeadingFour
 text="All Articles"
 />
