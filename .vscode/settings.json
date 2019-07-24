@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "window.zoomLevel": 0,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true,
+    "prettier.eslintIntegration": true,
+    "git.confirmSync": false,
+    "eslint.run": "onSave"
+}
