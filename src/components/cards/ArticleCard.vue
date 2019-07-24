@@ -11,7 +11,7 @@
          :text="cardTag"
          />
             <!-- article title -->
-        <HeadingThree
+        <HeadingFour
         :text="cardTitle"
         />
 
@@ -23,14 +23,14 @@
     </div>
 </template>
 <script>
-import HeadingThree from '../typography/HeadingThree'
+import HeadingFour from '../typography/HeadingFour'
 import Body from '../typography/Body'
 import Caption from '../typography/Caption'
 
 export default {
     name:'ArticleCard',
     components:{
-        HeadingThree,
+        HeadingFour,
         Body,
         Caption
     },
