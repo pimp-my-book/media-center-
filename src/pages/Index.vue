@@ -39,7 +39,15 @@
    </div>
    
 
-   <!-- -->
+   <!-- All articles Grid -->
+
+   <div >
+<HeadingFour
+text="All Articles"
+/>
+
+<!-- start of All articles Grid -->
+   </div>
   </Layout>
 </template>
 
