@@ -1,6 +1,6 @@
 <template>
   <Layout>
-   
+   <!-- Header Grid -->
    <div
    class="grid ml-4"
    >
@@ -8,15 +8,19 @@
     <HomeCard
     />
    </div>
-   
+
+
+   <!--start of latest flex row -->
    <div>
      <HeadingFour
      text="Latest"
      />
 
+
+
 <div class="flex flex-row ">
   <div v-for="edge in $page.content.edges" :key="edge.node.id">
-
+<!-- lastest articles -->
  <ArticleCard
     :img="edge.node.coverImg"
     :cardTag="edge.node.tag"
@@ -34,6 +38,8 @@
     
    </div>
    
+
+   <!-- -->
   </Layout>
 </template>
 
