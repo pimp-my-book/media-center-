@@ -2,18 +2,19 @@
   <Layout>
    
    <div
-   class="grid ml-5"
+   class="grid ml-4"
    >
    <div>
     <HomeCard
     />
    </div>
+   
    <div>
      <HeadingFour
      text="Latest"
      />
 
-<div class="flex flex-row mr-5">
+<div class="flex flex-row ">
   <div v-for="edge in $page.content.edges" :key="edge.node.id">
 
  <ArticleCard
@@ -64,14 +65,12 @@ export default {
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
+
 
 .grid{
   display:grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+ grid-gap: 0px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 0.45fr));
 }
 </style>
 <page-query>
