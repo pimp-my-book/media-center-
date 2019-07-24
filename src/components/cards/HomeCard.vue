@@ -1,10 +1,11 @@
 <template>
     <div class="card w-500 h-300">
       <HeadingOne
-      class="text-black"
+      class="text-white"
       text="Welcome to Newsroom"
       />
       <HeadingFour
+      
       text="This is Pimp My Book's all access area where you can get all annoucments, updates and blog posts fresh off the press."
        />
     </div>
@@ -25,6 +26,6 @@ export default {
 </script>
 <style>
 .card{
-     background: linear-gradient(179.9deg, #A0FFAB 23.23%, #94B5E3 99.68%);
+     background: linear-gradient(90deg, #249DC9 2.49%, #F9B4ED 76.81%, #F9B4ED 87.91%);
 }
 </style>
