@@ -31,5 +31,12 @@ module.exports = {
      svgRule
        .use('vue-svg-loader')
        .loader('vue-svg-loader')
-   }
+   },
+
+transformers: {
+  remark:{
+    externalLinksTarget: '_blank',
+    externalLinksRel: ['nofollow', 'noopener', 'noreferrer']
+  }
+}
 }
