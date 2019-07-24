@@ -14,19 +14,17 @@
      />
 
 <div class="flex flex-row mr-5">
-  <ArticleCard
-    img="https://images.unsplash.com/photo-1562819474-6ccdd832fe2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-    cardTag="Blog"
-    cardTitle="How To Run PMB"
-    cardDate="2019-09-08"
+  <div v-for="edge in $page.content.edges" :key="edge.node.id">
+
+ <ArticleCard
+    :img="edge.node.coverImg"
+    :cardTag="edge.node.tag"
+    :cardTitle="edge.node.title"
+    :cardDate="edge.node.date"
     /> 
 
-    <ArticleCard
-    img="https://images.unsplash.com/photo-1562819474-6ccdd832fe2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-    cardTag="Blog"
-    cardTitle="How To Run PMB"
-    cardDate="2019-09-08"
-    /> 
+  </div>
+ 
 </div>
    
     
@@ -76,3 +74,18 @@ export default {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 </style>
+<page-query>
+query Posts {
+    content: allContent(limit: 2){
+        edges{
+            node{
+              id
+                title
+                tag
+                coverImg
+                date
+            }
+        }
+    }
+}
+</page-query>
