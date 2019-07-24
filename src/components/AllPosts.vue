@@ -9,7 +9,7 @@ text="All Articles"
 
 <!-- start of All articles Grid -->
 
-<div class="All_Grid">
+<div class="All__Grid">
  <div v-for="allEdges in $static.allContent.edges" :key="allEdges.node.id">
 <!-- lastest articles -->
  <ArticleCard
@@ -37,10 +37,19 @@ export default {
 }
 </script>
 
+<style>
+.All__Grid{
+     display:grid;
+ grid-gap: 0px;
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
+}
+</style>
+
+
 <static-query>
 
 query AllPosts {
-    allContent: allContent{
+    allContent: allContent(skip: 2){
         edges{
             node{
               id
