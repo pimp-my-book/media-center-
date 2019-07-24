@@ -1,7 +1,8 @@
 <template>
-    <div class="shadow-lg h-400 p-2 w-300">
+    <div class="shadow-lg h-400 p-2 w-350">
         <!-- article img -->
         <img
+        class="h-250 w-400"
         :src="img"
         />
         <div>
