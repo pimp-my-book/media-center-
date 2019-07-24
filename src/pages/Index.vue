@@ -21,12 +21,18 @@
 <div class="flex flex-row ">
   <div v-for="edge in $page.content.edges" :key="edge.node.id">
 <!-- lastest articles -->
+<router-link
+ class="no-underline text-black"
+  :to="edge.node.path"
+>
  <ArticleCard
     :img="edge.node.coverImg"
     :cardTag="edge.node.tag"
     :cardTitle="edge.node.title"
     :cardDate="edge.node.date"
     /> 
+</router-link>
+
 
   </div>
  
@@ -90,6 +96,7 @@ query Posts {
                 tag
                 coverImg
                 date
+                path
             }
         }
     }
