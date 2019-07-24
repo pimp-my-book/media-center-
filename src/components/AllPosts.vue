@@ -10,7 +10,7 @@ text="All Articles"
 <!-- start of All articles Grid -->
 
 <div class="All_Grid">
- <div v-for="allEdges in $page.allContent.edges" :key="allEdges.node.id">
+ <div v-for="allEdges in $static.allContent.edges" :key="allEdges.node.id">
 <!-- lastest articles -->
  <ArticleCard
     :img="allEdges.node.coverImg"
@@ -25,8 +25,9 @@ text="All Articles"
 </template>
 
 <script>
-import ArticleCard from "../components/cards/ArticleCard"
-import HeadingFour from "../components/typography/HeadingFour"
+import ArticleCard from "./cards/ArticleCard"
+import HeadingFour from "./typography/HeadingFour"
+ 
 export default {
     name: "AllPosts",
     components:{

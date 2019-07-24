@@ -37,7 +37,7 @@
    </div>
     
    </div>
-   
+   <AllPosts/>
 
   </Layout>
 </template>
@@ -46,12 +46,14 @@
 import HomeCard from "../components/cards/HomeCard"
 import ArticleCard from "../components/cards/ArticleCard"
 import HeadingFour from "../components/typography/HeadingFour"
+import AllPosts from "../components/AllPosts"
 
 export default {
   components:{
     ArticleCard,
     HomeCard,
-    HeadingFour
+    HeadingFour,
+    AllPosts
   },
   metaInfo: {
     title: 'PMB Newsroom'
