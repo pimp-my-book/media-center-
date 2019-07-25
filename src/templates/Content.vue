@@ -1,8 +1,13 @@
 <template>
     <Layout>
         <header
-        :style="{backgroundImage:'url('+ $page.post.coverImg + ')'}"
-        ></header>
+        
+        >
+        <img
+        class="w-full h-500"
+        :src="$page.post.coverImg"
+        />
+        </header>
 
 
 <span
