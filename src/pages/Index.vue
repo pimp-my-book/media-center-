@@ -38,12 +38,20 @@
   </div>
  
 </div>
+
+
+
    
     
 
    </div>
-    
+    <!--End of latest flex row -->
    </div>
+
+      <!-- End of Header Grid -->
+
+
+
    <AllPosts/>
 
   </Layout>
