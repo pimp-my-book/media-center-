@@ -3,6 +3,10 @@
         <header
         class="flex flex-col"
         >
+        <HeadingTwo
+        class="text-center mb-5"
+        :text="$page.post.title"
+        />
         <img
         class=""
         :src="$page.post.coverImg"
@@ -20,8 +24,12 @@ v-html="$page.post.content"
     </Layout>
 </template>
 <script>
+import HeadingTwo from "../components/typography/HeadingTwo"
 export default {
-    name: "Post"
+    name: "Post",
+    components:{
+        HeadingTwo
+    }
 }
 </script>
 
