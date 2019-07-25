@@ -44,7 +44,7 @@ module.exports ={
                 'md': '768px',
                 'lg': '992px',
                 'x': '1024px',
-                'lapie': [{'min':'1366px'}],
+                'lapie': [{'min':'1280px','max':'1366px'}],
                 'xl': [{'min': '1500px'}],
               },
               fontFamily: {
