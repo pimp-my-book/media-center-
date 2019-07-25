@@ -1,10 +1,10 @@
 <template>
     <Layout>
         <header
-        
+        class="flex flex-col"
         >
         <img
-        class="w-full h-500"
+        class=""
         :src="$page.post.coverImg"
         />
 
@@ -13,7 +13,7 @@
 
 <div class="flex flex-col">
     <span
-class="font-body text-lg p-5 pl-5 m-10"
+class="font-body font-light text-lg p-5 pl-5 m-10"
 v-html="$page.post.content"
 />
 </div>
