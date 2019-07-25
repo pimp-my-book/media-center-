@@ -11,10 +11,12 @@
         </header>
 
 
-<span
-class="text-center"
+<div class="flex flex-col">
+    <span
+class="font-body text-lg p-5 pl-5 m-10"
 v-html="$page.post.content"
 />
+</div>
     </Layout>
 </template>
 <script>
