@@ -18,7 +18,7 @@
 
 
 
-<div class="flex flex-row ">
+<div class="flex x:flex-row s:flex-col">
   <div v-for="edge in $page.content.edges" :key="edge.node.id">
 <!-- lastest articles -->
 <router-link
