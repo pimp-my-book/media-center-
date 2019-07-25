@@ -1,12 +1,18 @@
 <template>
     <Layout>
         <header
-        class="flex flex-col"
+        class="flex flex-col text-center"
         >
+        
         <HeadingTwo
-        class="text-center mb-5"
+        class=" mb-5"
         :text="$page.post.title"
         />
+        <Caption
+        :text="$page.post.date"
+        />
+       
+        
         <img
         class=""
         :src="$page.post.coverImg"
@@ -25,10 +31,13 @@ v-html="$page.post.content"
 </template>
 <script>
 import HeadingTwo from "../components/typography/HeadingTwo"
+import Caption from "../components/typography/Caption"
+
 export default {
     name: "Post",
     components:{
-        HeadingTwo
+        HeadingTwo,
+        Caption
     }
 }
 </script>
@@ -39,6 +48,7 @@ query OnePost ($path: String!){
         title
         content
         coverImg
+        date
     }
 }
 </page-query>
