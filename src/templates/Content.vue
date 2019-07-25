@@ -7,10 +7,12 @@
         class="w-full h-500"
         :src="$page.post.coverImg"
         />
+
         </header>
 
 
 <span
+class="text-center"
 v-html="$page.post.content"
 />
     </Layout>
