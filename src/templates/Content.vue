@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <header
-        class="flex flex-col text-center p-5"
+        class="flex flex-col text-center p-10"
         >
         
         <HeadingTwo

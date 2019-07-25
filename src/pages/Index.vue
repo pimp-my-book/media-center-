@@ -20,9 +20,10 @@
 
 
 <div class="flex x:flex-row s:flex-col">
-  <div v-for="edge in $page.content.edges" :key="edge.node.id">
+  <div >
 <!-- lastest articles -->
 <g-link
+v-for="edge in $page.content.edges" :key="edge.node.id"
  class="no-underline text-black"
   :to="edge.node.path"
  
