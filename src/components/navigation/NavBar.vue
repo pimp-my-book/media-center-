@@ -21,11 +21,11 @@
               
             </div>
             <div class="nav__drawer--right">
-                <p class="text-white font-body mr-4 hover:text-green">
+               
                  
                    
                        <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
-                       <p class="font-body text-pinkDarkes ">
+                       <p class="font-body text-pinkDarkest ">
                         Company
                         </p>
                         </router-link>
@@ -33,16 +33,14 @@
                  
                    
                        <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
-                       <p class="font-body text-pinkDarkes ">
+                       <p class="font-body text-pinkDarkest ">
                         Jobs
                         </p>
                         </router-link>
                  
-                </p>
+                
             </div>
-            <div class="nav__drawer--right ">
-             
-            </div>
+            
         </div>
     </nav>
 </template>
