@@ -22,22 +22,22 @@
             </div>
             <div class="nav__drawer--right">
                 <p class="text-white font-body mr-4 hover:text-green">
-                  <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-pinkDarkest hover:text-blueLightest mr-4">
+                 
                    
                        <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
                        <p class="font-body text-pinkDarkes ">
                         Company
                         </p>
                         </router-link>
-                 </a>
-                  <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-pinkDarkest hover:text-blueLightest mr-4">
+                
+                 
                    
                        <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
                        <p class="font-body text-pinkDarkes ">
                         Jobs
                         </p>
                         </router-link>
-                 </a>
+                 
                 </p>
             </div>
             <div class="nav__drawer--right ">
