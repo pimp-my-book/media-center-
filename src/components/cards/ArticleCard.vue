@@ -1,5 +1,5 @@
 <template>
-    <div class="shadow-lg h-450 p-2 w-350">
+    <div class="shadow-lg h-450 p-2 w-320 ">
         <!-- article img -->
         <img
         class="h-250 w-400"

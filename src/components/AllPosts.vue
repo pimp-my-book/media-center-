@@ -10,7 +10,7 @@ text="All Articles"
 
 <!-- start of All articles Grid -->
 
-<div class="All__Grid p-5">
+<div class="All__Grid x:p-5">
  <div v-for="allEdges in $static.allContent.edges" :key="allEdges.node.id">
 <!-- lastest articles -->
  <ArticleCard
@@ -43,7 +43,7 @@ export default {
      display:grid;
  grid-gap: 0px;
  align-items: end;
-  grid-template-columns: repeat(3, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 </style>
 
