@@ -13,6 +13,7 @@
    <!--start of latest flex row -->
    <div>
      <HeadingFour
+     class="mt-5"
      text="Latest"
      />
 
