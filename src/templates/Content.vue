@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <header
-        class="flex flex-col text-center"
+        class="flex flex-col text-center p-5"
         >
         
         <HeadingTwo
@@ -9,12 +9,13 @@
         :text="$page.post.title"
         />
         <Caption
+        class="text-greyDark mb-5"
         :text="$page.post.date"
         />
        
         
         <img
-        class=""
+        
         :src="$page.post.coverImg"
         />
 
