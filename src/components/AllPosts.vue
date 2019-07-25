@@ -13,7 +13,7 @@ text="All Articles"
 <div class="All__Grid x:p-5">
  <div v-for="allEdges in $static.allContent.edges" :key="allEdges.node.id">
 <!-- lastest articles -->
-<router-link
+<g-link
  class="no-underline text-black"
   :to="allEdges.node.path"
  
@@ -24,7 +24,7 @@ text="All Articles"
     :cardTitle="allEdges.node.title"
     :cardDate="allEdges.node.date"
     /> 
-</router-link>
+</g-link>
   </div>
 </div>
    </div>
