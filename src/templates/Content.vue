@@ -5,7 +5,7 @@
         >
         
         <HeadingTwo
-        class=" mb-5"
+        class=" mb-5 s:text-2xl x:text-4xl"
         :text="$page.post.title"
         />
         <Caption
