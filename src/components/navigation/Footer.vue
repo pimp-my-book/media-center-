@@ -20,12 +20,12 @@
           <HeadingFour
               text="Make Money With Us"
               />
-           
+           <a href="https://pimpmybook.co.za" target="_blank">
           <Body
           class="text-black "
           text="Sell to Pimp My Book"
           />
-           
+           </a>
           </div>
 
           <div class="flex flex-col  x:ml-32 md:ml-16 s:mt-5 md:mt-0">
