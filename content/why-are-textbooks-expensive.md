@@ -1,12 +1,11 @@
 ---
+title: Why Are Textbooks Expensive?
+tag: Blog
+coverImg: https://images.unsplash.com/photo-1559202921-0e869c50c7a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1306&q=80
+date: 2019-26-7
+---
 
 
-
-----
-
-
-
-# WHY ARE TEXTBOOKS SO EXPENSIVE?
 
 So what actually makes university textbooks so expensive? You will often hear people blaming the greedy monopoly “almost wrote ……. Monopoly Capital” bookstores for the high cost of textbooks. I must be honest and say that the largest textbook retailer in South Africa, Van Schaik Bookstores, has sometimes been unfairlyblamed for the high cost of textbooks.
 
