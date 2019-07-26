@@ -6,10 +6,12 @@
               <HeadingFour
               text="Our Products"
               />
+              <a href="https://gogoa.co.za" target="_blank">
           <Body
           class="text-black "
           text="GOA"
           />
+          </a>
          
            
           </div>
