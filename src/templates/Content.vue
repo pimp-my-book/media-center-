@@ -14,8 +14,8 @@
         />
        
         
-        <img
-        
+        <g-image
+        class="x:h-650"
         :src="$page.post.coverImg"
         />
 
