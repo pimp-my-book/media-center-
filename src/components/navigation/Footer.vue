@@ -31,16 +31,20 @@
           <div class="flex flex-col  x:ml-32 md:ml-16 s:mt-5 md:mt-0">
               <PmbLogo/>
               <div class="flex flex-row ml-10 mt-3 ">
+                  <a href="https://twitter.com/pimpmybook?lang=en" target="_blank"></a>
                   <TwitterLogo 
                   class="mr-3"/>
+                  <a href="https://www.facebook.com/pimpmybook/" target="_blank"></a>
                   <FbLogo/>
               </div>
           </div>
           <div class="flex flex-col  x:ml-32 md:ml-16 s:mt-5 md:mt-0">
+              <a href="https://pimpmybook.co.za/privacy-policy/" target="_blank"></a>
                <Body
           class="text-black "
           text="Privacy Policy"
           />
+          <a href="https://pimpmybook.co.za/terms-conditions/" target="_blank"></a>
           <Body
           class="text-black "
           text="Terms and Conditions"
