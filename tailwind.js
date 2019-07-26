@@ -44,7 +44,7 @@ module.exports ={
                 'md': '768px',
                 'lg': '992px',
                 'x': '1024px',
-                'lapie': [{'min':'1366px'}],
+                'lapie': [{'min':'1280px','max':'1366px'}],
                 'xl': [{'min': '1500px'}],
               },
               fontFamily: {
@@ -99,7 +99,7 @@ module.exports ={
                 'none': '0',
                 'px': '5px',
                 'sm': '.125rem',
-                default: '.25rem',
+                "default": '.25rem',
                 'lg': '25px',
                 'full': '9999px',
                 'header-border': '0px 0px 220px 220px',
@@ -136,6 +136,9 @@ module.exports ={
                 'full': '100%',
                 'screen': '100vw',
                 '300': '300px',
+                '320':'320px',
+                '350': '350px',
+                '400': '400px',
                 '500': '500px',
                 'img': '600px',
                 '700': '700px',
@@ -174,6 +177,7 @@ module.exports ={
                 '500': '500px',
                 '550': '550px',
                 '600': '600px',
+                '650': '650px',
                 '750': '750px',
                 '800': '800px'
               },
@@ -317,5 +321,5 @@ module.exports ={
           addComponents(borderBottom);
           addComponents(border);
         }
-      ],
+	],
 }

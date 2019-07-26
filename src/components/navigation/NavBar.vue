@@ -21,28 +21,28 @@
               
             </div>
             <div class="nav__drawer--right">
-                <p class="text-white font-body mr-4 hover:text-green">
-                  <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-pinkDarkest hover:text-blueLightest mr-4">
+               
+                 
                    
-                       <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
-                       <p class="font-body text-pinkDarkes ">
+                      
+                       <p class="font-body text-pinkDarkest block mt-4  sm:inline-block sm:mt-0  hover:text-bg-green-light mr-4">
+                      <g-link>
                         Company
+                         </g-link>
+                
                         </p>
-                        </router-link>
-                 </a>
-                  <a href="#" class="block mt-4 no-underline sm:inline-block sm:mt-0 text-pinkDarkest hover:text-blueLightest mr-4">
-                   
-                       <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
-                       <p class="font-body text-pinkDarkes ">
+                       
+                 
+                 
+                       <p class="font-body text-pinkDarkest block mt-4  sm:inline-block sm:mt-0  hover:text-bg-green-light mr-4">
+                       <g-link >
                         Jobs
+                        </g-link>
                         </p>
-                        </router-link>
-                 </a>
-                </p>
+                 
+               
             </div>
-            <div class="nav__drawer--right ">
-             
-            </div>
+            
         </div>
     </nav>
 </template>

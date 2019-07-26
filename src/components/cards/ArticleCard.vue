@@ -1,7 +1,8 @@
 <template>
-    <div class="shadow-lg h-400 p-2 w-300">
+    <div class="shadow-lg h-450 p-2 w-320 ">
         <!-- article img -->
         <img
+        class="h-250 w-400"
         :src="img"
         />
         <div>
@@ -10,7 +11,7 @@
          :text="cardTag"
          />
             <!-- article title -->
-        <HeadingThree
+        <HeadingFour
         :text="cardTitle"
         />
 
@@ -22,14 +23,14 @@
     </div>
 </template>
 <script>
-import HeadingThree from '../typography/HeadingThree'
+import HeadingFour from '../typography/HeadingFour'
 import Body from '../typography/Body'
 import Caption from '../typography/Caption'
 
 export default {
     name:'ArticleCard',
     components:{
-        HeadingThree,
+        HeadingFour,
         Body,
         Caption
     },
