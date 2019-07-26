@@ -53,3 +53,7 @@ query OnePost ($path: String!){
     }
 }
 </page-query>
+
+<style scoped>
+
+</style>

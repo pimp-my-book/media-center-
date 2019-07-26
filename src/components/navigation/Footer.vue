@@ -59,7 +59,9 @@
                   <Caption
                   text="Pimp My Book"
                   />
-              <img src="https://s3.amazonaws.com/goa-assets/Icons/flag-for-south-africa_1f1ff-1f1e6.svg"/></div>
+              <g-image 
+              class="h-20"
+              src="https://s3.amazonaws.com/goa-assets/Icons/flag-for-south-africa_1f1ff-1f1e6.svg"/></div>
               </div>
       </div>
     </footer>
