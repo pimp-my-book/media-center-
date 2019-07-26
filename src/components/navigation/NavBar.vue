@@ -24,21 +24,23 @@
                
                  
                    
-                       <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
-                       <p class="font-body text-pinkDarkest ">
+                      
+                       <p class="font-body text-pinkDarkest block mt-4  sm:inline-block sm:mt-0  hover:text-bg-green-light mr-4">
+                      <g-link>
                         Company
-                        </p>
-                        </router-link>
+                         </g-link>
                 
+                        </p>
+                       
                  
-                   
-                       <router-link class="text-pinkDarkest no-underline" to="/how-it-works">
-                       <p class="font-body text-pinkDarkest ">
+                 
+                       <p class="font-body text-pinkDarkest block mt-4  sm:inline-block sm:mt-0  hover:text-bg-green-light mr-4">
+                       <g-link >
                         Jobs
+                        </g-link>
                         </p>
-                        </router-link>
                  
-                
+               
             </div>
             
         </div>
