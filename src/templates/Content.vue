@@ -22,9 +22,9 @@
         </header>
 
 
-<div class="flex flex-col">
+<div class="flex flex-col break-normal">
     <span
-class="font-body font-light text-lg p-5 pl-5 m-10"
+class="font-body font-light pb-5 text-lg p-5 pl-5 m-10 mt-10"
 v-html="$page.post.content"
 />
 </div>
