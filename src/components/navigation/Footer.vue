@@ -31,24 +31,28 @@
           <div class="flex flex-col  x:ml-32 md:ml-16 s:mt-5 md:mt-0">
               <PmbLogo/>
               <div class="flex flex-row ml-10 mt-3 ">
-                  <a href="https://twitter.com/pimpmybook?lang=en" target="_blank"></a>
+                  <a href="https://twitter.com/pimpmybook?lang=en" target="_blank">
                   <TwitterLogo 
                   class="mr-3"/>
-                  <a href="https://www.facebook.com/pimpmybook/" target="_blank"></a>
+                  </a>
+                  <a href="https://www.facebook.com/pimpmybook/" target="_blank">
                   <FbLogo/>
+                  </a>
               </div>
           </div>
           <div class="flex flex-col  x:ml-32 md:ml-16 s:mt-5 md:mt-0">
-              <a href="https://pimpmybook.co.za/privacy-policy/" target="_blank"></a>
+              <a href="https://pimpmybook.co.za/privacy-policy/" target="_blank">
                <Body
           class="text-black "
           text="Privacy Policy"
           />
-          <a href="https://pimpmybook.co.za/terms-conditions/" target="_blank"></a>
+          </a>
+          <a href="https://pimpmybook.co.za/terms-conditions/" target="_blank">
           <Body
           class="text-black "
           text="Terms and Conditions"
           />
+          </a>
           </div>
           <div class="flex flex-row  x:ml-10 md:ml-16 s:mt-5 md:mt-0" >
               <div>&copy; {{new Date().getFullYear()}} 
