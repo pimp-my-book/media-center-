@@ -1,6 +1,8 @@
 <template>
     <Layout>
-        <h1>Jobs</h1>
+    <g-image
+    src="../assets/jobs.svg"
+    />
     </Layout>
 </template>
 <script>
