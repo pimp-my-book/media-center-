@@ -7,7 +7,9 @@
         text="Eish we're not hiring at the moment..."
         />
         <Body
-        text="However keep checking back and we should have opportunites to share with you"
+        class="text-center p-10"
+        text="However keep checking back 
+        and we should have opportunites to share with you. However reach out to us at join@pimpmybook.co.za if you'd like to reach out."
         />
  <g-image
     width="650"
