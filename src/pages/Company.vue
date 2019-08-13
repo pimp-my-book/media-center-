@@ -1,11 +1,19 @@
 <template>
 <Layout>
-<h1>Company</h1>
+<div>
+    <HeadingOne
+    text="A Bit About Us"
+    />
+</div>
 </Layout>
 </template>
 
 <script>
+import HeadingOne from '../components/typography/HeadingOne'
 export default {
-    name: "Company"
+    name: "Company",
+    components:{
+        HeadingOne
+    }
 }
 </script>
