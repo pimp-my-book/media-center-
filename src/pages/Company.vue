@@ -12,10 +12,18 @@
 <div>
     <div>
         <HeadingFour
-    text="Our Mission"
+    text="What we do"
     />
     <Body
     text="We make educational materials and supporting technologies affordable and accessible to students."
+    />
+    </div>
+    <div>
+        <HeadingFour
+    text="Our vision for the future"
+    />
+    <Body
+    text="Provide a retail experince for students that assists in making access to eductaional resources accessible."
     />
     </div>
 </div>
