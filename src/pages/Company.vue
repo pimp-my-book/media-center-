@@ -1,6 +1,6 @@
 <template>
 <Layout>
-<div>
+<div class="p-5 ">
     <HeadingOne
     text="A Bit About Us"
     />
