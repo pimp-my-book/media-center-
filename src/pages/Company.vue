@@ -9,7 +9,7 @@
     />
 </div>
 
-<div>
+<div class="p-5">
     <div class="flex flex-row">
         <HeadingFour
     text="What we do"
