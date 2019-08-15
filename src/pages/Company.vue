@@ -31,12 +31,18 @@
     </div>
 </div>
 
+<div>
+    <div>
+
+    </div>
+</div>
 
 </Layout>
 </template>
 
 <script>
 import HeadingOne from '../components/typography/HeadingOne'
+import HeadingThree from '../components/typography/HeadingThree'
 import HeadingFour from '../components/typography/HeadingFour'
 import Body from '../components/typography/Body'
 
@@ -45,6 +51,7 @@ export default {
     components:{
         HeadingOne,
         HeadingFour,
+        HeadingThree,
         Body
     }
 }
