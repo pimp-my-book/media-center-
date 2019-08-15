@@ -11,20 +11,20 @@
 
 <div class="p-5">
     <div class="flex flex-row">
-        <HeadingFour
+        <Body
     text="What we do"
 
     />
-    <Body
+    <HeadingFour
     class="mt-2 ml-10"
     text="We make educational materials and supporting technologies affordable and accessible to students."
     />
     </div>
     <div class="flex flex-row">
-        <HeadingFour
+        <Body
     text="Our vision for the future"
     />
-    <Body
+    <HeadingFour
      class="mt-2 ml-10"
     text="Provide a retail experince for students that assists in making access to eductaional resources accessible."
     />
