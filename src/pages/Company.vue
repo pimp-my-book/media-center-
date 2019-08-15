@@ -16,7 +16,7 @@
 
     />
     <HeadingFour
-    class="mt-2 ml-10"
+    class=" ml-10"
     text="We make educational materials and supporting technologies affordable and accessible to students."
     />
     </div>
@@ -25,7 +25,7 @@
     text="Our vision for the future"
     />
     <HeadingFour
-     class="mt-2 ml-10"
+     class="ml-10"
     text="Provide a retail experince for students that assists in making access to eductaional resources accessible."
     />
     </div>
