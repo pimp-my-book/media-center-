@@ -36,6 +36,9 @@
      <HeadingThree
      text="13"
      />
+     <Body
+    text="Years we've existed for"
+    />
     </div>
 </div>
 
