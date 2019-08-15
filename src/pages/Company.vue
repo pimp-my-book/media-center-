@@ -40,6 +40,14 @@
     text="Years we've existed for"
     />
     </div>
+     <div>
+     <HeadingThree
+     text="n"
+     />
+     <Body
+    text="Books we've sold"
+    />
+    </div>
 </div>
 
 </Layout>
