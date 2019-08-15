@@ -10,7 +10,7 @@
 </div>
 
 <div>
-    <div>
+    <div class="flex flex-row">
         <HeadingFour
     text="What we do"
     />
@@ -18,7 +18,7 @@
     text="We make educational materials and supporting technologies affordable and accessible to students."
     />
     </div>
-    <div>
+    <div class="flex flex-row">
         <HeadingFour
     text="Our vision for the future"
     />
