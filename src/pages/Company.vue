@@ -50,10 +50,10 @@
     </div>
      <div>
      <HeadingThree
-     text="n"
+     text="17"
      />
      <Body
-    text="SA Campuses we interact with"
+    text="SA campuses we have customers at"
     />
     </div>
 </div>
