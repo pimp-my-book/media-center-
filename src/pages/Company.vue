@@ -42,7 +42,7 @@
     </div>
      <div>
      <HeadingThree
-     text="n"
+     text="105 143"
      />
      <Body
     text="Books we've sold"
