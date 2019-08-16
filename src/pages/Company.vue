@@ -34,6 +34,7 @@
 <div>
     <div>
      <HeadingThree
+     class="text-pinkDarkest"
      text="13"
      />
      <Body
@@ -42,6 +43,7 @@
     </div>
      <div>
      <HeadingThree
+     class="text-pinkDarkest"
      text="105 143"
      />
      <Body
@@ -51,6 +53,7 @@
      <div>
      <HeadingThree
      text="17"
+     class="text-pinkDarkest"
      />
      <Body
     text="SA campuses we have customers at"
