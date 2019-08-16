@@ -31,7 +31,7 @@
     </div>
 </div>
 
-<div class="flex flex-row p-5">
+<div class="flex flex-row p-5 m-20">
     <div class="pr-5">
      <HeadingThree
      class="text-pinkDarkest"
@@ -41,7 +41,7 @@
     text="Years we've existed for"
     />
     </div>
-     <div>
+     <div class="pr-5">
      <HeadingThree
      class="text-pinkDarkest"
      text="105 143"
@@ -50,7 +50,7 @@
     text="Books we've sold"
     />
     </div>
-     <div>
+     <div class="pr-5">
      <HeadingThree
      text="17"
      class="text-pinkDarkest"
