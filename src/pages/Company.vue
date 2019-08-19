@@ -31,7 +31,7 @@
     </div>
 </div>
 
-<div class="flex flex-row p-5 m-20">
+<div class="flex lg:flex-row p-5 m-20">
     <div class="pr-20">
      <HeadingThree
      class="text-pinkDarkest"
