@@ -63,7 +63,7 @@
 
 <div>
      <HeadingThree
-     class="text-pinkDarkest"
+     class="text-pinkDarkest p-5"
      text="Our Team"
      />
     <iframe class="airtable-embed" src="https://airtable.com/embed/shrBBIrIZ6arTUhSm?backgroundColor=pink&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"/>
