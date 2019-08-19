@@ -31,29 +31,29 @@
     </div>
 </div>
 
-<div class="flex lg:flex-row s:flex-col lg:p-5 lg:m-20">
-    <div class="pr-20 s:flex ">
+<div class="flex lg:flex-row s:flex-col p-5 lg:m-20 s:p">
+    <div class=" ">
      <HeadingThree
-     class="text-pinkDarkest s:p-5"
+     class="text-pinkDarkest "
      text="13"
      />
      <Body
     text="Years we've existed for"
     />
     </div>
-     <div class="pr-20 s:flex">
+     <div class="">
      <HeadingThree
-     class="text-pinkDarkest s:p-5"
+     class="text-pinkDarkest "
      text="105 143"
      />
      <Body
     text="Books we've sold"
     />
     </div>
-     <div class="pr-5 s:flex">
+     <div class="">
      <HeadingThree
      text="17"
-     class="text-pinkDarkest s:p-5"
+     class="text-pinkDarkest "
      />
      <Body
     text="SA campuses we have customers at"
