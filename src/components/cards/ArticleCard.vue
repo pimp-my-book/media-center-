@@ -1,5 +1,5 @@
 <template>
-    <div class="shadow-lg h-450 p-2 w-320 ">
+    <div class="shadow-lg h-450 p-2 w-320 article__card">
         <!-- article img -->
         <img
         class="h-auto w-full"
@@ -42,3 +42,39 @@ export default {
     }
 }
 </script>
+<style>
+.article__card:hover {
+    -webkit-animation: scale-up-bottom 1s;
+	animation: scale-up-bottom 1s;
+}
+
+@-webkit-keyframes scale-up-bottom {
+ 0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+@keyframes scale-up-bottom {
+  0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+</style>
+
