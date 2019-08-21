@@ -25,7 +25,7 @@
                  
                    
                       
-                       <p class="font-body text-pinkDarkest block mt-4  sm:inline-block sm:mt-0  hover:text-bg-green-light mr-4">
+                       <p class="font-body text-pinkDarkest block mt-4  sm:inline-block sm:mt-0  mr-4">
                       <g-link 
                       class="link relative"
                       to="/company">
@@ -36,7 +36,7 @@
                        
                  
                  
-                       <p class="font-body text-pinkDarkest block mt-4  sm:inline-block sm:mt-0  hover:text-bg-green-light mr-4">
+                       <p class="font-body text-pinkDarkest block mt-4  sm:inline-block sm:mt-0  mr-4">
                        <g-link 
                        class="link relative"
                        to="/jobs"
