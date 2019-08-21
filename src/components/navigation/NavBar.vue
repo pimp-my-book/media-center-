@@ -27,6 +27,7 @@
                       
                        <p class="font-body text-pinkDarkest block mt-4  sm:inline-block sm:mt-0  hover:text-bg-green-light mr-4">
                       <g-link 
+                      class="link"
                       to="/company">
                         Company
                          </g-link>
@@ -70,3 +71,18 @@ export default {
     }
 }
 </script>
+<style>
+.link:after{
+    border-radius: 1em;
+    border-top: .1em solid red;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: .14em;
+    left:0;
+    transition: right .4s cubic-bezier(0,.5,0,1);
+}
+.link:hover:after{
+    right:0;
+}
+</style>
