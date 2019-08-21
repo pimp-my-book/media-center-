@@ -75,7 +75,7 @@ export default {
 <style>
 .link:after{
     border-radius: 1em;
-    border-top: .1em solid red;
+    border-top: .1em solid #ED0677;
     content: "";
     position: absolute;
     right: 100%;
