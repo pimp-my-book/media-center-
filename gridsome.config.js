@@ -7,6 +7,7 @@
 module.exports = {
 	siteName: "PMB Newsroom",
 	siteDescription: "Pimp My Book`s blog where you can find all our updates, announcements and blog posts.",
+	icon: 'src/favicon.png',
 	plugins: [
 		{
 			use: "gridsome-plugin-tailwindcss",
