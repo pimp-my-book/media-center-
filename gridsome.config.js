@@ -7,7 +7,7 @@
 module.exports = {
 	siteName: "PMB Newsroom",
 	siteDescription: "Pimp My Book`s blog where you can find all our updates, announcements and blog posts.",
-	icon: 'src/favicon.png',
+	icon: "src/favicon.png",
 	plugins: [
 		{
 			use: "gridsome-plugin-tailwindcss",
@@ -23,6 +23,12 @@ module.exports = {
 				route: "/content/:slug/",
 				typeName: "Content"
 			}
+		},
+		{
+			use: "gridsome-plugin-netlify-cms",
+			options:{
+				publicPath:"/admin"
+			}
 		}
   
 	],
@@ -37,7 +43,8 @@ module.exports = {
 	transformers: {
 		remark:{
 			externalLinksTarget: "_blank",
-			externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+			externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+			anchorClassName: "icon icon-link"
 		}
 	}
 }
