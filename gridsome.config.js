@@ -23,6 +23,12 @@ module.exports = {
 				route: "/content/:slug/",
 				typeName: "Content"
 			}
+		},
+		{
+			use: "gridsome-plugin-netlify-cms",
+			options:{
+				publicPath:"/admin"
+			}
 		}
   
 	],
