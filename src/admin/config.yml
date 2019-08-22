@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: pimp-my-book/newsroom
+  name: git-gateway
+  
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
