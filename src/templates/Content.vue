@@ -18,7 +18,9 @@
         class="x:h-650 h-auto w-full"
         :src="$page.post.coverImg"
         />
-
+        <div class="flex flex-row">
+            <a href="https://twitter.com/share?ref_src=$route.path" class="twitter-share-button" data-show-count="false">Tweet</a>
+        </div>
         </header>
 
 
@@ -43,7 +45,7 @@ export default {
     metaInfo() {
         return {
             title: this.$page.post.title,
-            
+
             meta:[
                 //facebook meta
                 {property: "og:type", content:"website"},
@@ -58,7 +60,8 @@ export default {
             ]
         }
         
-    }
+    },
+    src: "https://platform.twitter.com/widgets.js"
 }
 </script>
 
