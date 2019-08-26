@@ -39,6 +39,9 @@ export default {
     components:{
         HeadingTwo,
         Caption
+    },
+    metaInfo: {
+        title: this.$page.page.title
     }
 }
 </script>
