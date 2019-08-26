@@ -40,8 +40,11 @@ export default {
         HeadingTwo,
         Caption
     },
-    metaInfo: {
-        title: this.$page.page.title
+    metaInfo() {
+        return {
+            title: this.$page.post.title
+        }
+        
     }
 }
 </script>
