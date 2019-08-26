@@ -42,7 +42,14 @@ export default {
     },
     metaInfo() {
         return {
-            title: this.$page.post.title
+            title: this.$page.post.title,
+            meta:[
+                {property: "og:type", content:"website"},
+                {property: "og:url", content:this.$route.path},
+                {property: "og:title", content:this.$page.post.title},
+                {property: "og:image", content:this.$page.post.coverImg}
+
+            ]
         }
         
     }
@@ -56,6 +63,7 @@ query OnePost ($path: String!){
         content
         coverImg
         date
+        path
     }
 }
 </page-query>
