@@ -43,12 +43,18 @@ export default {
     metaInfo() {
         return {
             title: this.$page.post.title,
+            
             meta:[
+                //facebook meta
                 {property: "og:type", content:"website"},
                 {property: "og:url", content:this.$route.path},
                 {property: "og:title", content:this.$page.post.title},
-                {property: "og:image", content:this.$page.post.coverImg}
-
+                {property: "og:image", content:this.$page.post.coverImg},
+                //twitter meta
+                 {property: "twitter:card", content:"summary_large_image"},
+                 {property: "twitter:url", content:this.$route.path},
+                 {property: "twitter:title", content:this.$page.post.title},
+                 {property: "twitter:image", content:this.$page.post.coverImg}
             ]
         }
         
