@@ -12,7 +12,7 @@ So what actually makes university textbooks so expensive? You will often hear pe
 
 <br/>
 
-![SA Book Council's outlook](http://sabookcouncil.co.za/wp-content/uploads/Cost-of-books-study.pdf)
+[Here is a an outlook from the SA Book Council](http://sabookcouncil.co.za/wp-content/uploads/Cost-of-books-study.pdf)
 
 
 <br/>
