@@ -3,6 +3,7 @@ title: Introducing GOA - making your money go further
 tag: Annocument
 coverImg: https://images.unsplash.com/photo-1563725911583-7d108f720483?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80
 date: 2019-24-7
+author: Mpodumo Doubada
 ---
 
 
