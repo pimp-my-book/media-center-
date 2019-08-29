@@ -3,6 +3,7 @@ title: Have you ever said thank you to the people that paid your varsity fees?
 tag: Blog
 coverImg: https://images.unsplash.com/photo-1547116211-c8a9b1458c99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=670&q=80
 date: 2019-24-7
+author: Mpodumo Doubada
 ---
 
 The other day I was in a meeting with one of our bursary clients and she mentioned how she can't recall a student coming back to say thank you for helping me through varsity. I realized that I am also guilty as I never said thanks to FNB/Career Wise for my undergrad bursary and The Bertha Centre for Social Innovation for my masters scholarship. I might have said it in passing but I really do not remember formally expressing my gratitude.
