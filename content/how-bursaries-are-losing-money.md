@@ -3,6 +3,7 @@ title: How bursaries are losing millions that could have helped more students
 tag: Blog
 coverImg: https://images.unsplash.com/photo-1555436169-20e93ea9a7ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
 date: 2019-24-7
+author: Mpodumo Doubada
 ---
 
 Millions of rands have been pumped into education but many organisations are simply wasting money, especially on book allowances. One of our clients was wasting more than one million rands per annum on their book allowances.
