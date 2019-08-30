@@ -3,8 +3,8 @@
     <header class="flex flex-col text-center p-10">
       <HeadingTwo class="mb-5 s:text-2xl x:text-4xl" :text="$page.post.title" />
       <Caption class="text-greyDark mb-5" :text="$page.post.date" />
-      <div class="flex justify-center">
-        <g-image :src="$page.post.authorImg" class="rounded-full w-20 h-5" />
+      <div class="flex justify-center mb-5">
+        <g-image :src="$page.post.authorImg" class="rounded-full mr-2 w-20 h-5" />
         <Caption :text="$page.post.author" />
       </div>
 
