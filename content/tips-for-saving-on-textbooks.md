@@ -4,6 +4,7 @@ tag: Blog
 coverImg: https://images.unsplash.com/photo-1563841140-60b44b64186e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=787&q=80
 date: 2019-24-7
 author: Mpodumo Doubada
+authorImg: https://pmb-plus-assets.s3.amazonaws.com/newsroom/mpo.jpg
 ---
 
 
