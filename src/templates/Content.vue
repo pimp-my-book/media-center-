@@ -4,8 +4,8 @@
       <HeadingTwo class="mb-5 s:text-2xl x:text-4xl" :text="$page.post.title" />
       <Caption class="text-greyDark mb-5" :text="$page.post.date" />
       <div class="flex justify-center mb-5">
-        <g-image :src="$page.post.authorImg" class="rounded-full mr-2 w-20 h-5" />
-        <Caption :text="$page.post.author" />
+        <g-image :src="$page.post.authorImg" class="rounded-full mr-2 w-20 h-8" />
+        <Caption :text="$page.post.author" class="mt-2" />
       </div>
 
       <g-image class="x:h-650 h-auto w-full" :src="$page.post.coverImg" />
