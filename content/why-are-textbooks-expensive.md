@@ -3,6 +3,8 @@ title: Why Are Textbooks Expensive?
 tag: Blog
 coverImg: https://images.unsplash.com/photo-1559202921-0e869c50c7a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1306&q=80
 date: 2019-26-7
+author: Mpodumo Doubada
+authorImg: https://pmb-plus-assets.s3.amazonaws.com/newsroom/mpo.jpg
 ---
 
 
@@ -11,7 +13,7 @@ So what actually makes university textbooks so expensive? You will often hear pe
 
 <br/>
 
-[SA Book Council's outlook](http://sabookcouncil.co.za/wp-content/uploads/Cost-of-books-study.pdf)
+[Here is a an outlook from the SA Book Council](http://sabookcouncil.co.za/wp-content/uploads/Cost-of-books-study.pdf)
 
 
 <br/>

@@ -3,6 +3,8 @@ title: How does Pimp My Book decide which books to buy?
 tag: Blog
 coverImg: https://images.unsplash.com/photo-1563874257547-d19fbb71b46c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
 date: 2019-24-7
+author: Mpodumo Doubada
+authorImg: https://pmb-plus-assets.s3.amazonaws.com/newsroom/mpo.jpg
 ---
 Many people have asked us why are you buying this book and not this book? As you have guessed the simple answer is demand. Given that we buy seventy percent of the books we take in cash up front. We need to be very certain that the book will sell otherwise we will be sitting large write off and debts. Therefore our buyers have to constantly forecast demand and change their buying decisions accordingly.
 
