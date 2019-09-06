@@ -12,7 +12,7 @@ This project is built with:
 
 ### 1. Install Gridsome CLI tool if you don't have
 
-`npm install --global @gridsome/cli`
+`yarn install --global @gridsome/cli`
 
 ### 2. Clone the repo
 
@@ -27,7 +27,13 @@ $ git clone https://github.com/pimp-my-book/newsroom.git
 $ cd newsroom
 ```
 
-### 4. Then start the server and go to `localhost:8080`
+### 4. Install the dependancies
+
+```
+$ yarn install
+```
+
+### 5. Then start the server and go to `localhost:8080`
 
 ```
 $ yarn develop
